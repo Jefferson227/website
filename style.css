@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+}
+
+.navbar .item {
+  list-style: none;
+}
+
+#resume.section-content,
+#projects.section-content,
+#about.section-content {
+  display: none;
+}
+.section-content.resume .job {
+  margin-bottom: 2em;
+}
+
+.section-content.resume .job .title,
+.section-content.resume .job .detail-info {
+  margin: 0;
+}
+
+.section-content.resume .job .title {
+  margin-bottom: 0.5em;
+}
