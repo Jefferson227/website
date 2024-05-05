@@ -1,9 +1,10 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
   margin: 0;
   padding: 0;
-  width: 30%;
+  width: 30em;
 }
 
 .navbar .item {

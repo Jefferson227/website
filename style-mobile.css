@@ -1,0 +1,12 @@
+@media only screen and (max-width: 390px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 390px;
+  }
+
+  .navbar .item {
+    display: inline-block;
+    width: calc(34% - 10px);
+  }
+}
